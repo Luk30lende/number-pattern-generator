@@ -1,4 +1,14 @@
 def number_pattern(n):
+    """
+    Generates a number pattern from 1 to n.
+
+    Args:
+        n (int): A positive integer
+
+    Returns:
+        str: A string of numbers from 1 to n separated by spaces
+    """
+    
     if not isinstance(n, int):
         return "Argument must be an integer value."
     if n < 1:
